@@ -1,3 +1,8 @@
+User can browse 1000+ exercises with practical examples,exercise details and much more
+ • With the use of two different Rapid API user can access different exercises along with visuals and Youtube video
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
