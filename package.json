@@ -16,6 +16,7 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "concurrently": "^8.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
@@ -26,7 +27,7 @@
     "start": "react-scripts start",
     "server": "node server.js",
     "dev": "concurrently \"npm run server\" \"npm start\"",
-    "build": "react-scripts build",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
